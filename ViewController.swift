@@ -11,144 +11,255 @@ import UIKit
 class ViewController: UIViewController {
 
     let scene_list = [
+        // 出会い編
+        
+        (UIImage(named : "clear")!,
+         UIImage(named : "clear")!,
+         "出会い編",
+         "",
+         ">>",
+         ""),
+        
         (UIImage(named : "school")!,
          UIImage(named : "clear")!,
-         "先生）ナイジェリアから引っ越してきたタピオ・オカゾーくんです。皆なかよくするようにー。"),
+         "先生）ナイジェリアから引っ越してきたタピオ・オカゾーくんです。皆なかよくするようにー。",
+         "",
+         ">>",
+         ""),
         
         (UIImage(named : "school")!,
          UIImage(named : "oldtapio")!,
-         "タピオ）タピオです。よろしくおねがいします、、。"),
-        
-        (UIImage(named : "school")!,
-         UIImage(named : "clear")!,
-         "～休み時間～"),
-        
-        (UIImage(named : "school")!,
-         UIImage(named : "oldtapio")!,
-         "タピオ)あ、、僕タピオです"),
-        
-        // 3
-        // 分岐
-        
-        // 分岐
+         "タピオ）タピオです。よろしくおねがいします、、。",
+         "",
+         ">>",
+         ""),
         
         (UIImage(named : "school")!,
          UIImage(named : "oldtapio")!,
-         "タピオ）あ、、長井徳子さんっていうんですね"),
+         "～休み時間～",
+         "話しかける",
+         "シカトする",
+         ""),
         
         (UIImage(named : "school")!,
          UIImage(named : "oldtapio")!,
-         "タピオ）よろしくお願いします"),
+         "タピオ)あ、、僕タピオです",
+         "",
+         ">>",
+         ""),
+        
+        
+        (UIImage(named : "school")!,
+         UIImage(named : "oldtapio")!,
+         "タピオ)あ、、あなたは？",
+         "名乗る",
+         "シカトする",
+         ""),
+        
+        (UIImage(named : "school")!,
+         UIImage(named : "oldtapio")!,
+         "タピオ）あ、、長井徳子さんっていうんですね",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "school")!,
+         UIImage(named : "oldtapio")!,
+         "タピオ）よろしくお願いします",
+         "",
+         ">>",
+         ""),
         
         (UIImage(named : "out")!,
          UIImage(named : "clear")!,
-         "～放課後～"),
+         "～放課後～",
+         "",
+         ">>",
+         ""),
         
         (UIImage(named : "out")!,
          UIImage(named : "oldtapio")!,
-         "帰路中にタピオを発見"),
+         "帰路中にタピオを発見",
+         "",
+         ">>",
+         ""),
         
         (UIImage(named : "out")!,
          UIImage(named : "oldtapio")!,
-         "タピオは段ボールをなにやら見つめている"),
+         "タピオは段ボールをなにやら見つめている",
+         "",
+         ">>",
+         ""),
         
         // 8
         // 分岐
         
         (UIImage(named : "out")!,
          UIImage(named : "oldtapio")!,
-         "タピオ）あ、徳子さん！"),
-        
-        (UIImage(named : "out")!,
-         UIImage(named : "oldtapio")!,
-         "タピオ）子猫が捨てられていて、、"),
-        
-        (UIImage(named : "out")!,
-         UIImage(named : "oldtapio")!,
-         "タピオ）決めた！僕このこ飼います！"),
-        
-        (UIImage(named : "out")!,
-         UIImage(named : "clear")!,
-         "タピオ、めっちゃ優しい！"),
-        
-        (UIImage(named : "out")!,
-         UIImage(named : "clear")!,
-         "私がタピオをプロデュースして良さを広めよう！"),
-        
-        // 13
-        // 育成編
-        
-        (UIImage(named : "out")!,//
-         UIImage(named : "clear")!,
-         "～休日～"),
-        
-        (UIImage(named : "out")!,//
-         UIImage(named : "oldtapio")!,
-         "タピオ）徳子さん！"),
-        
-        (UIImage(named : "out")!,//
-         UIImage(named : "oldtapio")!,
-         "タピオ）今日は誘ってくれてありがとうございます！"),
-        
-        (UIImage(named : "out")!,//
-         UIImage(named : "oldtapio")!,
-         "タピオ）今日はどこにいくんですか？"),
-        
-        // 17
-        // 分岐
-        
-        (UIImage(named : "out")!,//
-         UIImage(named : "oldtapio")!,
-         "タピオ）え、、美容院？いってきます、？"),
-        
-        (UIImage(named : "out")!,//
-         UIImage(named : "clear")!,
-         "1時間後"),
-        
-        (UIImage(named : "out")!,//
-         UIImage(named : "newtapio")!,
-         "タピオ）髪切ってきました！"),
-        
-        // 20
-        // 分岐
-        
-    ]
-    
-    let bunki1 = [
-        (UIImage(named : "school")!,
-         UIImage(named : "oldtapio")!,
-         "～休み時間～",
-        "話しかける",
-        "シカトする",
-        ""),
-        
-        (UIImage(named : "school")!,
-         UIImage(named : "oldtapio")!,
-         "タピオ)あ、、あなたは？",
-        "名乗る",
-        "シカトする",
-        "")
-        
-    ]
-    let bunki2 = [
-        (UIImage(named : "out")!,//
-         UIImage(named : "oldtapio")!,
+         "タピオ）あ、徳子さん！",
          "",
-         "いいからついてきて",
-         "デートだよ♡",
-         "")
-        
-    ]
-    let bunki3 = [
-        (UIImage(named : "out")!,//
-         UIImage(named : "newtapio")!,
-         "",
-         "→あ、うん、、似合ってるね、、？",
-         "→すごーい！かっこいいよタピオ君♡",
+         ">>",
          ""),
         
+        (UIImage(named : "out")!,
+         UIImage(named : "oldtapio")!,
+         "タピオ）子猫が捨てられていて、、",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "out")!,
+         UIImage(named : "oldtapio")!,
+         "タピオ）決めた！僕このこ飼います！",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "out")!,
+         UIImage(named : "clear")!,
+         "タピオ、めっちゃ優しい！",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "out")!,
+         UIImage(named : "clear")!,
+         "私がタピオをプロデュースして良さを広めよう！",
+         "",
+         ">>",
+         ""),
+
+        (UIImage(named : "clear")!,
+         UIImage(named : "clear")!,
+         "出会い編・完",
+         "",
+         ">>",
+         ""),
+        
+        // 育成編
+        
+        (UIImage(named : "clear")!,
+         UIImage(named : "clear")!,
+         "育成編",
+         "",
+         ">>",
+         ""),
+        
+
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "clear")!,
+         "～休日～",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "oldtapio")!,
+         "タピオ）徳子さん！",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "oldtapio")!,
+         "タピオ）今日は誘ってくれてありがとうございます！",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "oldtapio")!,
+         "タピオ）今日はどこにいくんですか？",
+         "いいからついてきて",
+         "デートだよ♡",
+         ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "oldtapio")!,
+         "タピオ）え、、美容院？いってきます、？",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "clear")!,
+         "1時間後",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "newtapio")!,
+         "タピオ）髪切ってきました！",
+         "あ、うん、、似合ってるね、、？",
+         "すごーい！かっこいいよタピオ君♡",
+         ""),
+         
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "newtapio")!,
+         "タピオ）ありがとうございます徳子さん",
+        "",
+        ">>",
+        ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "newtapio")!,
+         "タピオ）でもなんでいきなり美容院に連れてきたんですか？",
+         "君をプロデュースするためさ",
+         "君があまりにもダサいからさ",
+         ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "newtapio")!,
+         "タピオ）え、、",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "newtapio")!,
+         "タピオ）でも徳子さんがそうおっしゃるなら僕がんばります！",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "clear")!,
+         "タピオと街を歩く",
+         "",
+         ">>",
+         ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "newtapio")!,
+         "タピオ）徳子さん、のど渇きませんか？何か飲みませんか？",
+         "タピオカ飲みに行こう！",
+         "タピ活する？",
+         "コーヒー飲みたい"),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "newtapio")!,
+         "タピオ）僕タピオカ飲みたいんですよ～",
+        "",
+        ">>",
+        ""),
+        
+        (UIImage(named : "matinaka")!,
+         UIImage(named : "newtapio")!,
+         "タピオ）近くにタピオカ屋さんができたらしいのでいきませんか？",
+        "",
+        ">>",
+        ""),
+        
+        (UIImage(named : "tapiya")!,
+         UIImage(named : "clear")!,
+         "タピオとタピオカ屋に向かうと長蛇の列ができていた",
+         "めっちゃ並んでるからマック行こう",
+         "めっちゃならんでるじゃん",
+         "並ぶか"),
     ]
-    
+
+
     
     @IBOutlet weak var BG: UIImageView!
     @IBOutlet weak var FR: UIImageView!
@@ -164,61 +275,7 @@ class ViewController: UIViewController {
     }
     
     var sceneCount = 0
-    var bunkiCount = 0
     func NextScene(){
-        if(sceneCount == 3 && bunkiCount < bunki1.count){
-            let data = bunki1[bunkiCount]
-            BG.image = data.0
-            FR.image = data.1
-            GameText.text = data.2
-            ViewBox.isHidden = false
-            StartBox.isHidden = true
-            START.text = ""
-            Choice1.text = data.3
-            Choice2.text = data.4
-            Choice3.text = data.5
-            Choice1.isHidden = false
-            Choice3.isHidden = false
-            
-            bunkiCount += 1
-            return
-        }
-        if(sceneCount == 17 && bunkiCount < bunki2.count){
-            let data = bunki2[bunkiCount]
-            BG.image = data.0
-            FR.image = data.1
-            GameText.text = data.2
-            ViewBox.isHidden = false
-            StartBox.isHidden = true
-            START.text = ""
-            Choice1.text = data.3
-            Choice2.text = data.4
-            Choice3.text = data.5
-            Choice1.isHidden = false
-            Choice3.isHidden = false
-            
-            bunkiCount += 1
-            return
-        }
-        if(sceneCount == 20 && bunkiCount < bunki3.count){
-            let data = bunki3[bunkiCount]
-            BG.image = data.0
-            FR.image = data.1
-            GameText.text = data.2
-            ViewBox.isHidden = false
-            StartBox.isHidden = true
-            START.text = ""
-            Choice1.text = data.3
-            Choice2.text = data.4
-            Choice3.text = data.5
-            Choice1.isHidden = false
-            Choice3.isHidden = false
-            
-            bunkiCount += 1
-            return
-        }
-        
-        bunkiCount = 0
         if(sceneCount >= scene_list.count){
             return
         }
@@ -228,10 +285,10 @@ class ViewController: UIViewController {
         GameText.text = data.2
         ViewBox.isHidden = false
         StartBox.isHidden = true
-        START.text = ""
-        Choice1.isHidden = true
-        Choice2.text = "next"
-        Choice3.isHidden = true
+        START.isHidden = true
+        Choice1.text = data.3
+        Choice2.text = data.4
+        Choice3.text = data.5
         
         sceneCount += 1
     }

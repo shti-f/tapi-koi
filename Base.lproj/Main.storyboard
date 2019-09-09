@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="nKo-Ro-eAH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="nKo-Ro-eAH">
                                 <rect key="frame" x="0.0" y="44" width="375" height="725"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -38,7 +38,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="Uvz-eh-No3">
-                                        <rect key="frame" x="106" y="151" width="247" height="36"/>
+                                        <rect key="frame" x="56" y="151" width="297" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90566305051813467" green="0.90566305051813467" blue="0.90566305051813467" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="textColor" red="0.12821810233160624" green="0.12821810233160624" blue="0.12821810233160624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -46,7 +46,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="FX0-az-owv">
-                                        <rect key="frame" x="106" y="130" width="247" height="36"/>
+                                        <rect key="frame" x="56" y="130" width="297" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90566305051813467" green="0.90566305051813467" blue="0.90566305051813467" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="textColor" red="0.12821810233160624" green="0.12821810233160624" blue="0.12821810233160624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -54,7 +54,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="LXp-cQ-Whc">
-                                        <rect key="frame" x="106" y="107" width="247" height="36"/>
+                                        <rect key="frame" x="56" y="107" width="297" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.90566305051813467" green="0.90566305051813467" blue="0.90566305051813467" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="textColor" red="0.12821810233160624" green="0.12821810233160624" blue="0.12821810233160624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -105,6 +105,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="title" width="1125" height="2436"/>
+        <image name="title" width="908" height="1204"/>
     </resources>
 </document>
